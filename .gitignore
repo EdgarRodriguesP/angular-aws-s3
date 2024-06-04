@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.env
+npm-debug.log
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/

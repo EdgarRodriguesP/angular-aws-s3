@@ -1,0 +1,47 @@
+{
+    "name": "angular-aws-s3",
+    "version": "1.0.0",
+    "description": "Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end",
+    "author": "Edgar Rodrigues",
+    "email": "e.rodrigues@outlook.com",
+    "main": "dist/angular-aws-s3.js",
+    "types": "dist/angular-aws-s3.d.ts",
+    "scripts": {
+        "prepublish": "npm run clean && npm run build",
+        "clean": "rm -rf dist",
+        "build": "tsc --declaration"
+    },
+    "dependencies": {
+        "crypto-js": "^4.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.14",
+        "@types/crypto-js": "^4.2.2",
+        "typescript": "^3.9.7"
+    },
+    "keywords": [
+        "react-component",
+        "react",
+        "s3",
+        "upload",
+        "vanillajs",
+        "vue-awss3",
+        "vuejs",
+        "typescript",
+        "angular-awss3",
+        "angular",
+        "aws",
+        "file-upload",
+        "file",
+        "presignedurl"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EdgarRodriguesP/angular-aws-s3.git"
+    },
+    "bugs": {
+        "url": "https://github.com/EdgarRodriguesP/angular-aws-s3/issues"
+    },
+    "homepage": "https://github.com/EdgarRodriguesP/angular-aws-s3#readme"
+}
